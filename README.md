@@ -12,7 +12,6 @@ From API : https://checkerproxy.net/api/check</br>
 <a href="https://github.com/warifp"><img alt="Issues" src="https://img.shields.io/github/issues/warifp/ProxyChecker.svg"/></a>
 </br>
 <a href="https://github.com/warifp"><img alt="Search" src="https://img.shields.io/github/search/warifp/ProxyChecker/proxy.svg"/></a>
-</br>
 <a href="https://github.com/warifp"><img alt="Repository Size" src="https://img.shields.io/github/languages/code-size/warifp/ProxyChecker.svg"/></a>
 </p>
 
