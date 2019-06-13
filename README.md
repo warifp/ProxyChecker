@@ -20,15 +20,8 @@ Made with ❤️ by <a href="https://github.com/warifp">Wahyu Arif Purnomo</a>
 </p>
 
 <p align="center">
-  <img src="images/version/1.3.png" width="350" title="Version 1.3" alt="Version 1.3">
-  <img src="images/version/1.4.png" width="350" title="Version 1.4" alt="Version 1.4">
+  <img src="images/version/1.0.png" width="650" title="Version 1.0" alt="Version 1.0">
 </p>
-
-<p align="center">
-  <a><br> UPDATE </br></a>
-  <img src="images/add_access_token.png" width="640" title="Access Token" alt="Access Token">
-</p>
-
 ## Version
 
 Version 1.0 :
