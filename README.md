@@ -28,8 +28,8 @@ Version 1.0 :
 
   Changelog :
 
--   Add tools
-
+-   Build Tools
+-   add library CLIMate
 ## Installation
 
 You can download the latest composer in [here](https://getcomposer.org/download/).
