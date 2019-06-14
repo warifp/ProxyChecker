@@ -55,15 +55,15 @@ for ($a = 0; $a < count($data); $a++) {
     $decode = json_decode($result);
     $error = $decode->error;
     if($error == "couldn't read payload"){
-        $climate->error( $no . '. ' . $proxy . ' ==> Die | Response :' . $error . '');
+        $climate->error( $no . '. Die  | ' . $proxy . ' !Response :' . $error . '');
         $save = fopen($save_die, 'a');
         fwrite($save, $proxy . "\n");
     } else if($result == null){
-        $climate->error( $no . '. ' . $proxy .  ' ==> Die | Response : no response from your proxy list');
+        $climate->error( $no . '. Die  | ' . $proxy . ' !Response : no response from your proxy list');
         $save = fopen($save_die, 'a');
         fwrite($save, $proxy . "\n");
     } else {
-        $climate->info( $no . '. ' . $proxy .  ' ==> Live | Response : ' . $result . '');
+        $climate->info( $no . '. Live | ' . $proxy .  ' !Response : ' . $result . '');
         $save = fopen($save_live, 'a');
         fwrite($save, $proxy . "\n");
     }
