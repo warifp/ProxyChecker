@@ -24,7 +24,7 @@ $list = $input_list->prompt();
 
 $climate->br()->info('Start check your proxy list ..');
 progress($progress);
-$file = file_get_contents("$list");
+$file = file_get_contents("$list") or die ("" . $climate->br()->error('File not found. Check the file name and try again.') . "");
 $data = explode("\n", str_replace("\r", "", $file));
 $no = 0;
 for ($a = 0; $a < count($data); $a++) {
@@ -56,6 +56,10 @@ for ($a = 0; $a < count($data); $a++) {
     $error = $decode->error;
     if($error == "couldn't read payload"){
         $climate->error( $no . '. ' . $proxy . ' ==> Die | Response :' . $error . '');
+        $save = fopen($save_die, 'a');
+        fwrite($save, $proxy . "\n");
+    } else if($result == null){
+        $climate->error( $no . '. ' . $proxy .  ' ==> Die | Response : no response from your proxy list');
         $save = fopen($save_die, 'a');
         fwrite($save, $proxy . "\n");
     } else {
