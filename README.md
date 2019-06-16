@@ -22,6 +22,7 @@ Made with ❤️ by <a href="https://github.com/warifp">Wahyu Arif Purnomo</a>
 <p align="center">
   <img src="images/version/1.0.png" width="650" title="Version 1.0" alt="Version 1.0">
 </p>
+
 ## Version
 
 Version 1.0 :
