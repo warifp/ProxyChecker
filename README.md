@@ -3,7 +3,6 @@ PROXY CHECKER
 </H1>
 <H4 align="center">
 proxy checker to check the status of the ip-port proxy list.</br>
-From API : https://checkerproxy.net/api/check</br>
 </H4>
 <p align="center">
 <a href="https://github.com/warifp"><img alt="Last Commit" src="https://img.shields.io/github/last-commit/warifp/ProxyChecker.svg"/></a>
